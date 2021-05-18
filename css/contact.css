@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins",sans-serif;
+	background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/bg2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+/*----------navbar---------*/
+
+ul{
+	list-style-type: none;
+	float: right;
+	
+}
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid white;
+	margin-top: 25px;
+	transition: 0.5s ease;
+	
+}
+ul li a:hover{
+	background-color: white;
+	color: black;
+	
+}
+ul li .active a{
+	background-color: white;
+	color: black;
+}
+
+.logo img{
+	float: left;
+	width: 100px;
+	height: auto;
+	
+}
+.main{
+	max-width: 1400px;
+	margin: auto;
+}
+
+/*---------contact form----------*/
+
+.contact-box{
+	width: 500px;
+	background-color: white;
+	box-shadow: 0 0 20px 0 #999;
+	left: 75%;
+	transform: translate(-50%,40%);
+	position: absolute;
+    
+}
+form{
+	margin: 25px;
+}
+.input-field{
+	width: 400px;
+	height: 40px;
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid black;
+	border-radius: 14px;
+	outline: none;
+}
+.textarea-field{
+	height: 150px;
+	padding-top: 10px;
+	
+}
+.btn{
+	border-radius: 20px;
+	color: white;
+	margin-top: 18px;
+	padding: 10px;
+	background-color: #47c35a;
+	font-size: 12px;
+	border: none;
+	cursor: pointer;
+}
+
